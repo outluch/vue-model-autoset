@@ -1,6 +1,6 @@
 {
   "name": "vue-model-autoset",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Vue.js plugin to workaround Vue limitation in observing dynamically added properties with v-model directive.",
   "main": "dist/index.js",
   "scripts": {
