@@ -14,7 +14,9 @@ Imagine a huge form with 100+ fields.
 <my-checkbox v-model="filters.only_good_offers" />
 ```
 
-You should init `filters` in `data()` fn for your parent component, if you want them be reactive, like this:
+You should init `filters` in `data()` fn for your parent component, if you want them be reactive
+[Vue.js Change-Detection-Caveats](https://vuejs.org/v2/guide/reactivity.html#Change-Detection-Caveats)
+
 ```js
 data() {
   return {
