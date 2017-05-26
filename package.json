@@ -8,6 +8,11 @@
     "prepublish": "npm run compile"
   },
   "author": "outluch",
+  "homepage": "https://github.com/outluch/vue-model-autoset",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/outluch/vue-model-autoset"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-loader": "^7.0.0",
