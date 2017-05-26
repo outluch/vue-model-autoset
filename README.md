@@ -32,9 +32,9 @@ data() {
 }
 ```
 
-And now you should keep them in sync, or you wil get weird bugs.
+And now you need to keep them in sync, or you will get weird bugs.
 It is frustrating.
-vue-model-autoset does it for you. Define your `filters: {}` and forget.
+vue-model-autoset does this for you. Define your `filters: {}` and forget.
 Just write your template and it will just work.
 
 ## Installation
@@ -56,6 +56,10 @@ Vue.use(VueModelAutoset)
 ## Notes
 
 Killed webpack etc, so this package now can be used only in webpack projects. No simple include script usage.
+
+## Contribution
+
+I appreciate any comments, feedback, and information about potential issues. Have you experienced a bug or noticed a mistake in documentation? Please add a new issue. Thanks!
 
 ## License
 
