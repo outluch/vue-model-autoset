@@ -53,17 +53,9 @@ import VueModelAutoset from 'vue-model-autoset';
 Vue.use(VueModelAutoset)
 ```
 
-or
-
-include `dist/index.js` with `<script />` tag after Vue.
-
-## Usage
-
-See demo/index.html
-
 ## Notes
 
-I dont think it is very good idea to keep webpack in dependencies to just include lodash/get. Maybe there some better and more lightweight way to do that? I would be glad to know.
+Killed webpack etc, so this package now can be used only in webpack projects. No simple include script usage.
 
 ## License
 

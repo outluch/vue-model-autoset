@@ -1,22 +1,16 @@
 {
   "name": "vue-model-autoset",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A Vue.js plugin to workaround Vue limitation in observing dynamically added properties with v-model directive.",
-  "main": "dist/index.js",
-  "scripts": {
-    "compile": "webpack --config webpack.config.js -p",
-    "prepublish": "npm run compile"
-  },
+  "main": "index.js",
   "author": "outluch",
   "homepage": "https://github.com/outluch/vue-model-autoset",
   "repository": {
     "type": "git",
     "url": "https://github.com/outluch/vue-model-autoset"
   },
-  "license": "MIT",
   "devDependencies": {
-    "babel-loader": "^7.0.0",
-    "lodash.get": "^4.4.2",
-    "webpack": "^2.6.1"
-  }
+    "lodash.get": "^4.4.2"
+  },
+  "license": "MIT"
 }
